@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Fylo Landing Page" />
+    <meta
+      name="keywords"
+      content="Fylo website, website, segun, emmanuel websites"
+    />
+    <meta name="author" content="segun emmanuel" />
+    <!-- FAVICON -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- GOOGLE FONT  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- GOOGLE ICON  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+      integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+  </head>
+  <body id="body">
+    <header id="header">
+      <div class="container">
+        <nav id="navBar" class="navbar">
+          <div class="container navbar__content">
+            <div class="nav__brand">
+              <a href="/" class="nav__brand--logo">
+                <img class="nav__logo" src="./images/logo.svg" alt="logo" />
+              </a>
+
+              <div id="hambugger">
+                <button id="hambuggerOpenIcon" type="button">
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <button id="hambuggerCloseIcon" type="button">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+            </div>
+
+            <ul id="nav__links">
+              <li class="nav__link">
+                <a class="nav__item" href="">My repo</a>
+              </li>
+              <li class="nav__link">
+                <a class="nav__item" href="http://">Team</a>
+              </li>
+              <li class="nav__link">
+                <a class="nav__item" href="http://">Sign In</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <section class="hero">
+          <div class="hero__container">
+            <article class="hero__left">
+              <h4 class="hero__title">
+                All your files in one secure location, accessible anywhere.
+              </h4>
+              <p class="hero__description">
+                Fylo stores your most important files in one secure location.
+                Access them wherever you need, share and collaborate with
+                friends, family, and co-workers.
+              </p>
+
+              <div class="hero__btns">
+                <input
+                  class="email"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter your email..."
+                />
+                <button class="btn__hero" type="button">Get Started</button>
+              </div>
+            </article>
+
+            <div class="hero__right">
+              <img
+                class="hero__right--img"
+                src="./images/illustration-1.svg"
+                alt="hero caption"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="productive">
+        <div class="container prod__container">
+          <article class="prod__left">
+            <h4 class="prod__title">Stay productive, wherever you are</h4>
+            <div class="prod__description">
+              <p>
+                Never let location be an issue when accessing your files. Fylo
+                has you covered for all of your file storage needs.
+              </p>
+              <p>
+                Securely share files and folders with friends, family and
+                colleagues for live collaboration. No email attachments
+                required!
+              </p>
+            </div>
+            <a href="" class="prod__btns">
+              <p class="prod-btns-title">See how Fylo works</p>
+              <img src="./images/icon-arrow.svg" alt="arrow" />
+            </a>
+            <div class="prod__figure">
+              <img src="./images/icon-quotes.svg" alt="icon-quotes" />
+              <p class="prod__figure-p">
+                Fylo has improved our team productivity by an order of
+                magnitude. Since making the switch our team has become a
+                well-oiled collaboration machine
+              </p>
+              <div class="prod__figcap">
+                <img
+                  class="avatar-testimonial"
+                  src="./images/avatar-testimonial.jpg"
+                  alt="avatar-testimonial"
+                />
+                <div>
+                  <h5 class="prod__figcap-h5">Kvie Burton</h5>
+                  <p class="prod__figcap-p">Founder & CEO. Huddle</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <div class="prod__right">
+            <img
+              class="prod__right--img"
+              src="./images/illustration-2.svg"
+              alt="hero caption"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container contact__container">
+          <article class="contact__left">
+            <div class="contact__lefts">
+              <h4 class="contact__title">Get early access today</h4>
+              <p class="contact__description">
+                It only takes a minute to sign up and our free starter tier is
+                extremely generous. If you have any questions, our support team
+                would be happy to help you.
+              </p>
+            </div>
+
+            <div class="contact__btns">
+              <input
+                class="email"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email..."
+              />
+              <button class="btn__contact" type="button">
+                Get Started For Free
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="container footer__container">
+        <img class="footer-logo" src="./images/logo.svg" alt="logo" />
+        <div class="foot__nav">
+          <div class="footer__nav">
+            <div class="social__conatainer">
+              <div class="social__link">
+                <img src="./images/icon-phone.svg" alt="phone" />
+                <a href="tel:+2348144746826">Phone: +2348144746826</a>
+              </div>
+              <div class="social__link">
+                <img src="./images/icon-email.svg" alt="phone" />
+                <a href="mailto:recipient@example.com">example@fylo.com</a>
+              </div>
+            </div>
+            <div class="social__conatainer">
+              <a href="#">About Us</a>
+              <a href="#">Jobs</a>
+              <a href="#">Press</a>
+              <a href="#">Blog</a>
+            </div>
+            <div class="social__conatainer">
+              <a href="#">Contact Us</a>
+              <a href="#">Terms</a>
+              <a href="#">Provacy</a>
+            </div>
+          </div>
+          <div class="socials__link">
+            <a href="https://facebook.com"
+              ><i class="fa-brands fa-facebook-f" style="color: white"></i
+            ></a>
+            <a href="https://twitter.com"
+              ><i class="fa-brands fa-twitter" style="color: white"></i
+            ></a>
+            <a href="https://instagram.com">
+              <i class="fa-brands fa-instagram" style="color: white"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
